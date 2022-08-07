@@ -68,7 +68,7 @@ public class LoginInterface implements ActionListener {
 		String password = passText.getText();
 		System.out.println(user +", " +password);
 		
-		if(user.equals("Shawin") && password.equals("admin123"))
+		if(user.equals("Admin") && password.equals("admin123"))
 		{
 			success.setText("Login Successful!");
 		}
